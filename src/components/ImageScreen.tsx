@@ -40,7 +40,7 @@ const ImageScreen = ({images}: any) => {
         renderItem={renderItem}
         keyExtractor={(item, index) => index.toString()}
         columnWrapperStyle={styles.columnWrapper}
-        ListEmptyComponent={<Text>No images available</Text>}
+        ListEmptyComponent={<Text>No images available </Text>}
       />
       <MediaModal
         item={active}
